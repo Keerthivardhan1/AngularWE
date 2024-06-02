@@ -1,7 +1,13 @@
-<div>
-    <button (click)="selectProduct(products[0])">Product 1</button>
-    <button (click)="selectProduct(products[1])">Product 2</button>
-    <button (click)="selectProduct(products[2])">Product 3</button>
-</div>
 
-<app-product-details [product]="selectedProduct"></app-product-details>
+<div class="parent">
+    <!-- click event binding for all buttons-->
+    <button *ngFor="let product of products" (click)="selectProduct(product)">
+        {{ product.name }}
+  </button>
+    <!-- child component -->
+    <h3>Child Component</h3>
+    <app-product-details [product]="selectedProduct" ></app-product-details>
+    
+</div>
+  
+

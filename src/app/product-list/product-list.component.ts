@@ -16,12 +16,10 @@ export class ProductListComponent {
     
     ];
 
-    selectedProduct: any;
+    selectedProduct: any;   // Data 
 
-selectProduct(product: any) {
-
-this.selectedProduct = product;
-
-}
+    selectProduct(product: any) {
+      this.selectedProduct = product;
+    }
 
 }
