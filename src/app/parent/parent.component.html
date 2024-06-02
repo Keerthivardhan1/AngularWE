@@ -1,0 +1,6 @@
+<div class="parent">
+    <span>parent Component</span>
+    <h3>Child Data = {{childData}}</h3>
+    <app-child (messageEvent)="receiveMessage($event)" [parentData] = "parentData"></app-child>
+</div>
+  

@@ -1,0 +1,20 @@
+.footer{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-right: 1rem; */
+}
+
+a{
+    color: tomato;
+}
+
+h3{
+    font-weight: bolder;
+    color: tomato;
+}

@@ -1,0 +1,24 @@
+<div class="container">
+    <!-- One-way binding (Interpolation) -->
+    <span>One-way binding - Interpolation</span>
+    <h1>{{ title }}</h1>
+  
+    <!-- One-way binding (Property binding) -->
+    <span>One-way binding - Property binding</span>
+    <img [src]="imageUrl" alt="Sample Image">
+  
+    <!-- Two-way binding -->
+    <div>
+      <label for="input">Two-way binding example:</label>
+      <input id="input" [(ngModel)]="inputText">
+      <p>You typed: {{ inputText }}</p>
+    </div>
+  
+    <!-- Event binding -->
+    <span>Event binding</span>
+    <div>
+      <button (click)="incrementCount()">Click me!</button>
+      <p>Button clicked {{ count }} times.</p>
+    </div>
+  </div>
+  
