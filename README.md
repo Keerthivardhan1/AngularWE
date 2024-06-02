@@ -1,19 +1,26 @@
-## This project demonstracts 
-## 1 . display data by clicking a button
-## 1 . demonstrate different types of data binding
-## 2 . communication between parent and child components
 
-## Development server
+## Project Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This project serves as a showcase for several key concepts:
 
-## Application start at app component
+1. **Dynamic Data Display**: Utilizing button clicks to dynamically display data.
+2. **Data Binding Variants**: Demonstrating different types of data binding.
+3. **Parent-Child Component Communication**: Showing communication between parent and child components.
 
-app component as 3 childs 
+## Development Server
 
-1 . Angular application using functional components to display product details by clicking a button
-2 . Angular application to demonstrate different types of data binding
-3 . Angular application to demonstrate the communication between parent and child components
+To run the development server, execute `ng serve`. Then, navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-Deployed Link : https://angular-we.vercel.app/
+## Application Structure
 
+The application starts with the main app component, which includes three child components:
+
+1. **Product Display**: An Angular application built with functional components to showcase product details upon button clicks.
+2. **Data Binding Showcase**: An Angular application illustrating various data binding techniques.
+3. **Component Interaction**: An Angular application exemplifying communication between parent and child components.
+
+For a live demonstration, visit the deployed link: [Angular Showcase](https://angular-we.vercel.app/)
+
+--- 
+
+This version clarifies the objectives and organizes the information in a clearer and more structured manner.
